@@ -9,9 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Age Calculator</title>
+        <meta aut  
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Age Calculator</h1>
+        <form action="age" method="post">
+            Enter your age: <input type="text" name="enteredAge" value = ${ageEnteredInTextBox}><br>
+            <input type="submit" value="Age next birthday"><br>
+            ${output}
+            <a href="arithmetic">Arithmetic Calculator</a>
+        </form>
     </body>
 </html>
